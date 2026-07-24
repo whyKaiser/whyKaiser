@@ -39,7 +39,7 @@ $ cat priorities.txt
 
 ## About Me
 
-I'm a fresh Computer Science graduate who skipped the "waiting for an internship" phase and just shipped seven production-quality projects instead. I care about **software that solves a real, specific problem** for a real, specific user — not portfolio filler.
+I'm a fresh Computer Science graduate who skipped the "waiting for an internship" phase and just shipped eight production-quality projects instead. I care about **software that solves a real, specific problem** for a real, specific user — not portfolio filler.
 
 My work spans **full-stack product engineering** (Flutter + Firebase, React + TypeScript), **applied AI integration** (LLM-powered assistants using Groq and Gemini in production apps), and **AI-assisted game development** (a 3D action-roguelike built in Godot with a custom in-editor AI agent).
 
@@ -63,6 +63,7 @@ Open To:
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 
 **Frontend**
@@ -78,7 +79,11 @@ Open To:
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Firestore](https://img.shields.io/badge/Firestore-039BE5?style=flat-square&logo=firebase&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
 
 **Cloud, DevOps & Tooling**
 
@@ -201,6 +206,23 @@ Live: [whykaiser.github.io/nexaforge-3d](https://whykaiser.github.io/nexaforge-3
 </details>
 
 <details>
+<summary><b>🏢 Mirfaq — Property Maintenance SaaS</b></summary>
+<br/>
+
+An Arabic-first platform for managing property maintenance reports in Saudi Arabia, connecting property managers, tenants, and technicians from report creation through completion and monthly reporting.
+
+| | |
+|---|---|
+| **Stack** | Node.js · Express · Prisma · PostgreSQL |
+| **Scale** | Multi-tenant, multi-property, role-based accounts (manager/tenant/technician) |
+| **Performance** | QR-code-based public reporting per unit, no account required to file a report |
+| **Security** | Rate-limited public endpoints, audit log, per-tenant data isolation |
+| **Impact** | Full lifecycle: report → assignment → before/after photos → work orders → printable monthly reports |
+| **Repository** | [github.com/whyKaiser/Mirfaq-Maintenance](https://github.com/whyKaiser/Mirfaq-Maintenance) |
+
+</details>
+
+<details>
 <summary><b>🎬 Cinema Horror Game</b></summary>
 <br/>
 
@@ -247,7 +269,7 @@ Self-directed · 2026 — Present
 
 Design and ship complete products end-to-end — from architecture to deployment — across mobile (Flutter), web (React/TypeScript), and game development (Godot), with a focus on integrating AI where it genuinely improves the product rather than as a gimmick.
 
-- Shipped 7 independent projects spanning fintech, civic tech, health tech, 3D/AI tooling, and game dev
+- Shipped 8 independent projects spanning fintech, civic tech, health tech, property-management SaaS, 3D/AI tooling, and game dev
 - Set up full CI/CD pipelines (GitHub Actions → GitHub Pages) for zero-touch deployments
 - Integrated LLM providers (Groq, Gemini) into production mobile apps with proper key-proxying and cost control
 - Designed rule-based, source-cited decision logic for legally-sensitive product surfaces
@@ -267,7 +289,7 @@ Design and ship complete products end-to-end — from architecture to deployment
 
 | Recognition | Details |
 |---|---|
-| 🚀 7 Shipped Projects | Built and deployed 7 complete projects as a fresh graduate, each solving a distinct real-world problem |
+| 🚀 8 Shipped Projects | Built and deployed 8 complete projects as a fresh graduate, each solving a distinct real-world problem |
 | ⚡ Same-Day Ship | Designed, built, tested, and deployed Rent Freeze Checker — from idea to live public URL — in a single session |
 | 🏗️ Full CI/CD Ownership | Independently configured GitHub Actions deployment pipelines rather than relying on manual hosting |
 | 🕌 Sensor-Fusion Engineering | Built GPS + compass + pedometer fusion logic for real-world ritual tracking accuracy in Dhakker |
@@ -300,7 +322,7 @@ Includes Network Addressing & Basic Troubleshooting, Introduction to Data Scienc
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=whyKaiser&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9&count_private=true" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=whyKaiser&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=whyKaiser&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whyKaiser&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&langs_count=8" width="49%"/>
 
@@ -312,7 +334,7 @@ Includes Network Addressing & Basic Troubleshooting, Introduction to Data Scienc
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=whyKaiser&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+<img src="https://github-trophies.vercel.app/?username=whyKaiser&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
 
 </div>
 
