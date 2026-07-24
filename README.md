@@ -381,7 +381,7 @@ Open To:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/main/space-shooter.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/space-shooter.gif" width="100%"/>
 
 *Every green square in my contribution graph is an alien. Updates daily.*
 
