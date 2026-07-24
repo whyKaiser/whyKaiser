@@ -221,6 +221,24 @@ Design and ship complete products end-to-end — from architecture to deployment
 
 ---
 
+## Certifications
+
+**SDAIA — Saudi Data and AI Authority**
+
+[![SDAIA](https://img.shields.io/badge/AI_Fundamentals-Artificial_Intelligence_Concepts_%26_Advanced_Applications-6C63FF?style=flat-square&logo=googlescholar&logoColor=white)]()
+
+**Doroob (STC Academy)**
+
+[![Doroob](https://img.shields.io/badge/AI_%26_Data_Analysis-Future_of_the_Labor_Market-8B5CF6?style=flat-square&logo=googlescholar&logoColor=white)]()
+
+**Cisco Networking Academy**
+
+[![Cisco](https://img.shields.io/badge/Networking_%26_Cybersecurity-7_Certifications-A78BFA?style=flat-square&logo=cisco&logoColor=white)]()
+
+Includes Network Addressing & Basic Troubleshooting, Introduction to Data Science, and Network Technician Career Path Exam, among others.
+
+---
+
 ## GitHub Analytics
 
 <div align="center">
