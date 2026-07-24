@@ -8,6 +8,7 @@
 
 [![Fresh Graduate](https://img.shields.io/badge/Fresh_Graduate-6C63FF?style=for-the-badge&logo=googlescholar&logoColor=white)]()
 [![Location](https://img.shields.io/badge/Saudi_Arabia-8B5CF6?style=for-the-badge&logo=googlemaps&logoColor=white)]()
+[![Portfolio](https://img.shields.io/badge/Portfolio-312E81?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whykaiser.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
 [![X](https://img.shields.io/badge/X-1E1B4B?style=for-the-badge&logo=x&logoColor=white)](https://x.com/alshareef12k)
 [![Email](https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:songokualshareef@gmail.com)
@@ -312,6 +313,7 @@ Open To:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
 [![X](https://img.shields.io/badge/X-1E1B4B?style=for-the-badge&logo=x&logoColor=white)](https://x.com/alshareef12k)
 [![GitHub](https://img.shields.io/badge/GitHub-312E81?style=for-the-badge&logo=github&logoColor=white)](https://github.com/whyKaiser)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whykaiser.github.io/portfolio/)
 
 </div>
 
