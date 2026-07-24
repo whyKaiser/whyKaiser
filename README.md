@@ -24,6 +24,19 @@
 
 ---
 
+```bash
+$ whoami
+> Ahmed Alshareef — fresh CS grad, 7 shipped projects, 0 waiting around
+
+$ ./ship.sh --project "idea" --time "one session"
+> Building... Deploying... ✅ Live at https://whykaiser.github.io/
+
+$ cat priorities.txt
+> Real problems > portfolio filler
+> Explainable code > black-box AI
+> Shipped > perfect
+```
+
 ## About Me
 
 I'm a fresh Computer Science graduate who skipped the "waiting for an internship" phase and just shipped seven production-quality projects instead. I care about **software that solves a real, specific problem** for a real, specific user — not portfolio filler.
@@ -359,6 +372,22 @@ Open To:
 [![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whykaiser.github.io/portfolio/)
 
 </div>
+
+---
+
+<details>
+<summary><b>🎮 Bonus: my commit history is now a space shooter</b></summary>
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/main/space-shooter.gif" width="100%"/>
+
+*Every green square in my contribution graph is an alien. Updates daily.*
+
+</div>
+
+</details>
 
 ---
 
