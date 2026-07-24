@@ -26,7 +26,7 @@
 
 ## About Me
 
-I'm a fresh Computer Science graduate who skipped the "waiting for an internship" phase and just shipped five production-quality applications instead. I care about **software that solves a real, specific problem** for a real, specific user — not portfolio filler.
+I'm a fresh Computer Science graduate who skipped the "waiting for an internship" phase and just shipped seven production-quality projects instead. I care about **software that solves a real, specific problem** for a real, specific user — not portfolio filler.
 
 My work spans **full-stack product engineering** (Flutter + Firebase, React + TypeScript), **applied AI integration** (LLM-powered assistants using Groq and Gemini in production apps), and **AI-assisted game development** (a 3D action-roguelike built in Godot with a custom in-editor AI agent).
 
@@ -73,7 +73,9 @@ Open To:
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
 ![Godot Engine](https://img.shields.io/badge/Godot_Engine-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
 
 ---
 
@@ -148,19 +150,57 @@ Real streaks, ranks, and challenges — all computed from actual Firestore activ
 </details>
 
 <details>
-<summary><b>💳 Waqfa — BNPL Debt Alert</b></summary>
+<summary><b>💳 Waqfa — Financial Decision Firewall</b></summary>
 <br/>
 
-A Flutter app built for a fintech hackathon that helps users track and get warned about Buy-Now-Pay-Later obligations before they spiral.
+Built solo at Amad Hackathon 2026 (Inma Bank × Tuwaiq Academy). Instead of a generic AI risk score, Waqfa runs a deterministic financial engine that simulates a new BNPL installment's impact on cash flow 90 days ahead, across 72 probabilistic paths, and predicts a "financial fall date" before it happens.
 
 | | |
 |---|---|
-| **Stack** | Flutter · Groq API |
-| **Scale** | Hackathon MVP, built under a hard time constraint |
-| **Performance** | Lightweight local-first state model |
-| **Security** | Secrets isolated in a dedicated config file, excluded from version control |
-| **Impact** | Addresses a genuine and growing consumer debt risk in the BNPL space |
+| **Stack** | Flutter · Dart (deterministic simulation engine) · Groq API |
+| **Scale** | Hackathon build, 90-day / 72-path Monte-Carlo-style simulation |
+| **Performance** | Validated on 100 synthetic personas: 47/47 critical cases caught, 0 misses, median 6-day early warning |
+| **Security** | AI never touches the numbers — every figure comes from the local engine; used only for Arabic explanations and bill-photo reading |
+| **Impact** | Searches for the smallest saving intervention and a 7/30/90-day goal plan, not just a warning |
 | **Repository** | [github.com/whyKaiser/waqfa](https://github.com/whyKaiser/waqfa) |
+
+Honest scope: a hackathon-grade prototype, not a production banking product — no live connection to Inma Bank, Tamara, Tabby, or any real BNPL provider.
+
+</details>
+
+<details>
+<summary><b>🧊 NexaForge 3D</b></summary>
+<br/>
+
+Arabic-first platform that converts 2D images into game-ready 3D assets using the Hunyuan3D-2 model, with a live in-browser model viewer and full Arabic/English RTL-LTR toggle.
+
+| | |
+|---|---|
+| **Stack** | Three.js · Google `<model-viewer>` · GSAP ScrollTrigger |
+| **Scale** | Full cinematic landing page, live 3D viewer, bilingual UI |
+| **Performance** | Runs entirely client-side; conversion pipeline connects to a user-provided processing server |
+| **Security** | No secrets or API keys bundled — server URL and token entered per-session by the user |
+| **Impact** | Turns a single 2D image into a usable game asset in one flow |
+| **Repository** | [github.com/whyKaiser/nexaforge-3d](https://github.com/whyKaiser/nexaforge-3d) |
+
+Live: [whykaiser.github.io/nexaforge-3d](https://whykaiser.github.io/nexaforge-3d/)
+
+</details>
+
+<details>
+<summary><b>🎬 Cinema Horror Game</b></summary>
+<br/>
+
+Co-op multiplayer horror game built in Unity. Players work a haunted cinema at night, carrying and splicing film reels to keep monsters trapped on-screen while the projector's power supply keeps failing.
+
+| | |
+|---|---|
+| **Stack** | Unity Engine · C# · Netcode for GameObjects |
+| **Scale** | Player movement, interaction/carry system, reel splice-and-repair loop, breaker box power system |
+| **Performance** | 67% code complete, 23% verified — active development |
+| **Security** | N/A — local co-op/offline testing |
+| **Impact** | Deepest netcode and systems-design project to date |
+| **Repository** | Private — not yet public |
 
 </details>
 
@@ -194,12 +234,13 @@ Self-directed · 2026 — Present
 
 Design and ship complete products end-to-end — from architecture to deployment — across mobile (Flutter), web (React/TypeScript), and game development (Godot), with a focus on integrating AI where it genuinely improves the product rather than as a gimmick.
 
-- Shipped 5 independent projects spanning fintech, civic tech, health tech, and game dev
+- Shipped 7 independent projects spanning fintech, civic tech, health tech, 3D/AI tooling, and game dev
 - Set up full CI/CD pipelines (GitHub Actions → GitHub Pages) for zero-touch deployments
 - Integrated LLM providers (Groq, Gemini) into production mobile apps with proper key-proxying and cost control
 - Designed rule-based, source-cited decision logic for legally-sensitive product surfaces
+- Built a deterministic 90-day / 72-path financial simulation engine, validated against 100 synthetic personas
 
-`Flutter` `React` `TypeScript` `Firebase` `Godot` `CI/CD` `LLM Integration`
+`Flutter` `React` `TypeScript` `Firebase` `Godot` `Unity` `Three.js` `CI/CD` `LLM Integration`
 
 </td>
 </tr>
@@ -213,10 +254,11 @@ Design and ship complete products end-to-end — from architecture to deployment
 
 | Recognition | Details |
 |---|---|
-| 🚀 5 Shipped Products | Built and deployed 5 complete applications as a fresh graduate, each solving a distinct real-world problem |
+| 🚀 7 Shipped Projects | Built and deployed 7 complete projects as a fresh graduate, each solving a distinct real-world problem |
 | ⚡ Same-Day Ship | Designed, built, tested, and deployed Rent Freeze Checker — from idea to live public URL — in a single session |
 | 🏗️ Full CI/CD Ownership | Independently configured GitHub Actions deployment pipelines rather than relying on manual hosting |
 | 🕌 Sensor-Fusion Engineering | Built GPS + compass + pedometer fusion logic for real-world ritual tracking accuracy in Dhakker |
+| 💰 Zero-Hallucination Finance | Built a deterministic simulation engine for Waqfa where the LLM never touches a single number shown to the user |
 
 </div>
 
@@ -293,6 +335,7 @@ Learning:
 Building:
   - Expanding Rent Freeze Checker's rule coverage
   - Wager of Iram — full vertical slice polish
+  - Cinema Horror Game — netcode verification pass
 
 Exploring:
   - LLM cost-efficient architectures for mobile apps
