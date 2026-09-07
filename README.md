@@ -59,6 +59,7 @@ open_to:   junior software engineering · applications & data support · freelan
 | **Application development** | Flutter · Dart · React · TypeScript · JavaScript · Tailwind CSS |
 | **Data & APIs** | SQL · PostgreSQL · SQLite · Firebase / Firestore · Prisma · REST APIs · relational data modelling |
 | **Applied AI** | grounded guidance flows · context handling · Groq API · Cloudflare Workers AI · server-side request proxying |
+| **Game development** | Godot · GDScript · Unity · C# — two projects in private development |
 | **Engineering** | authentication · RBAC · automated testing · Git · GitHub Actions · technical documentation |
 
 ---

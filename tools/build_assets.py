@@ -176,7 +176,7 @@ def header():
 # ---------------------------------------------------------------- stack map
 def stackmap():
     """The stack as six named constellations on one chart."""
-    w, h = 1220, 700
+    w, h = 1560, 700
     clusters = [
         ("MOBILE", CYAN, ["Flutter", "Dart", "Firebase", "Firestore"]),
         ("WEB", VIOLET, ["React", "TypeScript", "JavaScript", "Tailwind"]),
@@ -184,9 +184,10 @@ def stackmap():
         ("BACKEND", MINT, ["Node.js", "REST APIs", "Cloudflare Workers"]),
         ("APPLIED AI", ROSE, ["Groq API", "Workers AI", "Grounded flows"]),
         ("ENGINEERING", LILAC, ["Git", "GitHub Actions", "Auth &amp; RBAC", "Testing"]),
+        ("GAME DEV", TEXT, ["Godot", "GDScript", "Unity", "C#"]),
     ]
     shape = [(20, 0), (170, 42), (34, 100), (184, 142)]
-    cols = [110, 500, 890]
+    cols = [95, 460, 825, 1190]
     rows = [190, 452]
 
     svg = [
@@ -197,13 +198,13 @@ def stackmap():
         f'<text x="{w//2}" y="58" text-anchor="middle" font-family="{FONT}" font-size="18" '
         f'font-weight="700" letter-spacing="4" fill="{TEXT}">STACK MAP</text>',
         f'<text x="{w//2}" y="84" text-anchor="middle" font-family="{MONO}" font-size="12.5" '
-        f'fill="{MUTED}">six constellations &#183; grouped by the layer they belong to</text>',
+        f'fill="{MUTED}">seven constellations &#183; grouped by the layer they belong to</text>',
     ]
     label_box(w // 2, 58, "STACK MAP", 18)
     label_box(w // 2, 84, "six constellations - grouped by the layer they belong to", 12.5)
 
     for i, (name, color, items) in enumerate(clusters):
-        x0, y0 = cols[i % 3], rows[i // 3]
+        x0, y0 = cols[i % 4], rows[i // 4]
         pts = [(x0 + dx, y0 + dy) for dx, dy in shape[:len(items)]]
 
         svg.append(
@@ -233,7 +234,7 @@ def stackmap():
 
     svg.append(
         f'<text x="{w//2}" y="{h-32}" text-anchor="middle" font-family="{MONO}" font-size="12" '
-        f'fill="{MUTED}">every star here is used in a shipped, public project</text>'
+        f'fill="{MUTED}">white = private work in progress &#183; the rest ships in public repositories</text>'
     )
     label_box(w // 2, h - 32, "every star here is used in a shipped, public project", 12)
     svg.append("</svg>")
