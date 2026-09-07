@@ -186,12 +186,13 @@ Personal portfolio site, deployed to GitHub Pages.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=whyKaiser&show_icons=true&hide_border=true&bg_color=05060F&title_color=A78BFA&icon_color=22D3EE&text_color=8892B0&ring_color=8B5CF6&count_private=true" width="48%" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=whyKaiser&layout=compact&hide_border=true&bg_color=05060F&title_color=A78BFA&text_color=8892B0&langs_count=8" width="41%" alt="Top languages"/>
+<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/assets/stats.svg" width="100%" alt="GitHub statistics"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=whyKaiser&theme=react-dark&hide_border=true&bg_color=05060F&color=A78BFA&line=8B5CF6&point=22D3EE&area=true&area_color=8B5CF6" width="92%" alt="Contribution activity"/>
+<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution graph"/>
 
 </div>
+
+<sub>The stats card is generated from the GitHub API by [`tools/build_stats.py`](tools/build_stats.py) and refreshed daily by a workflow in this repo — no third-party card service.</sub>
 
 ---
 
@@ -212,8 +213,6 @@ Personal portfolio site, deployed to GitHub Pages.
 <br/>
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake"/>
 
 <img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/space-shooter.gif" width="100%" alt="Contribution graph rendered as a space shooter"/>
 
