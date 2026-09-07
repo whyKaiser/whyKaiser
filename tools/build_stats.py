@@ -17,15 +17,15 @@ API = "https://api.github.com"
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                    "assets", "stats.svg")
 
-BG = "#05060F"
-VIOLET = "#8B5CF6"
-LILAC = "#A78BFA"
-CYAN = "#22D3EE"
-AMBER = "#F59E0B"
-MINT = "#34D399"
-ROSE = "#F472B6"
-TEXT = "#E6EAF5"
-MUTED = "#8892B0"
+BG = "#000000"
+VIOLET = "#A24E28"
+LILAC = "#C87A4B"
+CYAN = "#C87A4B"
+AMBER = "#B4693C"
+MINT = "#D89A72"
+ROSE = "#A24E28"
+TEXT = "#FFFFFF"
+MUTED = "#8A8A8A"
 FONT = "'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono',Consolas,'Courier New',monospace"
 
@@ -112,7 +112,7 @@ def svg(d):
         x = 60 + i * 124
         parts.append(
             f'<g transform="translate({x},120)">'
-            f'<rect width="108" height="104" rx="14" fill="#0A0E22" stroke="{color}" '
+            f'<rect width="108" height="104" rx="14" fill="#0A0A0A" stroke="{color}" '
             f'stroke-opacity="0.42"/>'
             f'<circle cx="20" cy="24" r="4" fill="{color}"/>'
             f'<text x="54" y="66" text-anchor="middle" font-family="{FONT}" font-size="32" '
@@ -141,7 +141,7 @@ def svg(d):
             f'<circle cx="{bx+5}" cy="{y-4}" r="4" fill="{color}"/>'
             f'<text x="{bx+18}" y="{y}" font-family="{FONT}" font-size="12.5" '
             f'font-weight="600" fill="{TEXT}">{name}</text>'
-            f'<rect x="{bx+140}" y="{y-12}" width="340" height="8" rx="4" fill="#141A33"/>'
+            f'<rect x="{bx+140}" y="{y-12}" width="340" height="8" rx="4" fill="#1A1A1A"/>'
             f'<rect x="{bx+140}" y="{y-12}" width="{bar}" height="8" rx="4" fill="{color}">'
             f'<animate attributeName="width" values="0;{bar}" dur="1.1s" '
             f'begin="{round(0.15*i,2)}s" fill="freeze"/></rect>'

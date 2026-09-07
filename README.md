@@ -2,18 +2,20 @@
 
 <img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/assets/header.svg" width="100%" alt="Ahmed Kamal Alshareef — Software Engineer, Applications & Data Systems"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A0E22?style=for-the-badge&logo=googlechrome&logoColor=A78BFA)](https://whykaiser.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0E22?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
-[![Email](https://img.shields.io/badge/alshareef12k@gmail.com-0A0E22?style=for-the-badge&logo=gmail&logoColor=F59E0B)](mailto:alshareef12k@gmail.com)
-[![X](https://img.shields.io/badge/X-0A0E22?style=for-the-badge&logo=x&logoColor=E6EAF5)](https://x.com/alshareef12k)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=C87A4B)](https://whykaiser.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=C87A4B)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
+[![Email](https://img.shields.io/badge/alshareef12k@gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=C87A4B)](mailto:alshareef12k@gmail.com)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=FFFFFF)](https://x.com/alshareef12k)
 
-![Profile views](https://komarev.com/ghpvc/?username=whyKaiser&color=8B5CF6&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/whyKaiser?style=for-the-badge&color=22D3EE&labelColor=0A0E22&logo=github)
-![Stars](https://img.shields.io/github/stars/whyKaiser?style=for-the-badge&color=A78BFA&labelColor=0A0E22&logo=github)
+![Profile views](https://komarev.com/ghpvc/?username=whyKaiser&color=A24E28&style=for-the-badge&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/whyKaiser?style=for-the-badge&color=C87A4B&labelColor=000000&logo=github)
+![Stars](https://img.shields.io/github/stars/whyKaiser?style=for-the-badge&color=C87A4B&labelColor=000000&logo=github)
 
 </div>
 
 ---
+
+> **Full portfolio, with case studies for each project:** [whykaiser.github.io/portfolio](https://whykaiser.github.io/portfolio/)
 
 ## About
 
@@ -202,9 +204,9 @@ Personal portfolio site, deployed to GitHub Pages.
 
 **Makkah, Saudi Arabia** · open to junior software engineering and applications/data roles
 
-[![Email](https://img.shields.io/badge/alshareef12k@gmail.com-0A0E22?style=for-the-badge&logo=gmail&logoColor=F59E0B)](mailto:alshareef12k@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0E22?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A0E22?style=for-the-badge&logo=googlechrome&logoColor=A78BFA)](https://whykaiser.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/alshareef12k@gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=C87A4B)](mailto:alshareef12k@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=C87A4B)](https://www.linkedin.com/in/ahmed-alshareef-7b882b417)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=C87A4B)](https://whykaiser.github.io/portfolio/)
 
 </div>
 

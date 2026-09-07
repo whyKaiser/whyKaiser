@@ -12,15 +12,15 @@ import os
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")
 os.makedirs(OUT, exist_ok=True)
 
-BG = "#05060F"
-VIOLET = "#8B5CF6"
-LILAC = "#A78BFA"
-CYAN = "#22D3EE"
-AMBER = "#F59E0B"
-MINT = "#34D399"
-ROSE = "#F472B6"
-TEXT = "#E6EAF5"
-MUTED = "#8892B0"
+BG = "#000000"
+VIOLET = "#A24E28"
+LILAC = "#C87A4B"
+CYAN = "#C87A4B"
+AMBER = "#B4693C"
+MINT = "#D89A72"
+ROSE = "#A24E28"
+TEXT = "#FFFFFF"
+MUTED = "#8A8A8A"
 FONT = "'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono',Consolas,'Courier New',monospace"
 
@@ -108,8 +108,8 @@ def header():
         f'<stop offset="0%" stop-color="{CYAN}" stop-opacity="0.30"/>'
         f'<stop offset="100%" stop-color="{CYAN}" stop-opacity="0"/></radialGradient>',
         f'<radialGradient id="neb3" cx="60%" cy="6%" r="48%">'
-        f'<stop offset="0%" stop-color="#4338CA" stop-opacity="0.34"/>'
-        f'<stop offset="100%" stop-color="#4338CA" stop-opacity="0"/></radialGradient>',
+        f'<stop offset="0%" stop-color="#3A2016" stop-opacity="0.34"/>'
+        f'<stop offset="100%" stop-color="#3A2016" stop-opacity="0"/></radialGradient>',
         f'<linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">'
         f'<stop offset="0%" stop-color="#FFFFFF"/><stop offset="58%" stop-color="{LILAC}"/>'
         f'<stop offset="100%" stop-color="{CYAN}"/></linearGradient>',
