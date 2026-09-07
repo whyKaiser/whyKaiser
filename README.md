@@ -46,10 +46,10 @@ open_to:   junior software engineering · applications & data support · freelan
 
 ---
 
-## Technology Orbit
+## Stack Map
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/assets/orbit-stack.svg" width="88%" alt="Technology stack as an orbital system"/>
+<img src="https://raw.githubusercontent.com/whyKaiser/whyKaiser/master/assets/stack-map.svg" width="100%" alt="Technology stack drawn as six constellations"/>
 </div>
 
 | Layer | Tools |
