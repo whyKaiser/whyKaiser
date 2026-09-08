@@ -58,8 +58,9 @@ open_to:   junior software engineering · applications & data support · freelan
 |---|---|
 | **Application development** | Flutter · Dart · React · TypeScript · JavaScript · Tailwind CSS |
 | **Data & APIs** | SQL · PostgreSQL · SQLite · Firebase / Firestore · Prisma · REST APIs · relational data modelling |
-| **Applied AI** | grounded guidance flows · context handling · Groq API · Cloudflare Workers AI · server-side request proxying |
+| **Applied AI** | Groq (llama-3.3-70b) · Gemini Vision · Cloudflare Workers AI · grounded database-first answers with AI as a labelled fallback · deterministic logic kept out of the model · SSE streaming · keys proxied server-side · context and cost control |
 | **Game development** | Godot · GDScript · Unity · C# — two projects in private development |
+| **Foundations** | Java · C++ · OOP · data structures |
 | **Engineering** | authentication · RBAC · automated testing · Git · GitHub Actions · technical documentation |
 
 ---

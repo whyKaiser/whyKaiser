@@ -182,9 +182,10 @@ def stackmap():
         ("WEB", VIOLET, ["React", "TypeScript", "JavaScript", "Tailwind"]),
         ("DATA", AMBER, ["SQL", "PostgreSQL", "Prisma", "SQLite"]),
         ("BACKEND", MINT, ["Node.js", "REST APIs", "Cloudflare Workers"]),
-        ("APPLIED AI", ROSE, ["Groq API", "Workers AI", "Grounded flows"]),
+        ("APPLIED AI", ROSE, ["Groq API", "Workers AI", "Gemini Vision", "Grounded flows"]),
         ("ENGINEERING", LILAC, ["Git", "GitHub Actions", "Auth &amp; RBAC", "Testing"]),
         ("GAME DEV", TEXT, ["Godot", "GDScript", "Unity", "C#"]),
+        ("FOUNDATIONS", AMBER, ["Java", "C++", "OOP", "Data structures"]),
     ]
     shape = [(20, 0), (170, 42), (34, 100), (184, 142)]
     cols = [95, 460, 825, 1190]
@@ -198,7 +199,7 @@ def stackmap():
         f'<text x="{w//2}" y="58" text-anchor="middle" font-family="{FONT}" font-size="18" '
         f'font-weight="700" letter-spacing="4" fill="{TEXT}">STACK MAP</text>',
         f'<text x="{w//2}" y="84" text-anchor="middle" font-family="{MONO}" font-size="12.5" '
-        f'fill="{MUTED}">seven constellations &#183; grouped by the layer they belong to</text>',
+        f'fill="{MUTED}">eight constellations &#183; grouped by the layer they belong to</text>',
     ]
     label_box(w // 2, 58, "STACK MAP", 18)
     label_box(w // 2, 84, "six constellations - grouped by the layer they belong to", 12.5)
